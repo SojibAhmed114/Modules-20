@@ -9,8 +9,8 @@ function isEven(data3) {
         return false;
     }
 }
-//console.log(isEven(5)); //output: false
-//console.log(isEven(50)); //output: true
+console.log(isEven(5)); //output: false
+console.log(isEven(50)); //output: true
 
 //conditional return even
 function isOdd(dataValue) {
