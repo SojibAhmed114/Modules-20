@@ -3,12 +3,12 @@
 
 function odd_even(number) {
     if (number % 2 !== 1) {
-        number = "" + number;
-        return number;
+      //  number = "" + number;//
+        return "even";
     }
     
-    return number;
+    return "odd";
 }
 
-console.log(odd_even(4)); 
+console.log(odd_even(451)); 
 
